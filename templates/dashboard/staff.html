@@ -1,0 +1,41 @@
+{% extends "partials/base.html" %}
+{% block title %} Staff Page {% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-8">
+            <table class="table table-hover table-responsive caption-top">
+                <caption>List of Staff</caption>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Handle</th>
+                        <th>Position</th>
+                    </tr>     
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="" class="btn btn-success  btn-sm">view</a></td>
+                      <td>Amadi</td>
+                      <td>basmati</td>
+                      <td>zen@amadi.profile</td>
+                      <td>Procurement Officer</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2" class="table-active">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <td>Schematics</td>
+                  </tfoot>
+            </table>
+        </div>   
+    </div>
+</div>
+{% endblock %}

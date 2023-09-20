@@ -1,0 +1,47 @@
+
+<div class='container pt-4'>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <h5 class="card-header bg-dark text-white mb-3">Information</h5>
+                <div class="card-body kl">
+                <h1 class="card-title kanyi">This Is The Information.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="card">
+                <h5 class="card-header bg-dark text-white mb-3">Statistics</h5>
+                <div class="card-body">
+                    <div class='row'>
+                        <div class='col-sm-4'>
+                            <a href="{% url 'dashboard-staff' %}" class='text-decoration-none text-dark'>
+                            <div class="card-body shadow-lg p-3 mb-5 bg-body rounded">
+                                <h1>Staff</h1><br>
+                                <h2>4</h2>
+                            </div>
+                            </a>
+                        </div>
+                        <div class='col-sm-4'>
+                            <a href="{% url 'dashboard-order' %}" class='text-decoration-none text-dark'>
+                            <div class="card-body shadow-lg p-3 mb-5 bg-body rounded">
+                                <h1>Orders</h1><br>
+                                <h2>4</h2>
+                            </div>
+                            </a>
+                        </div>
+                        <div class='col-sm-4'>
+                            <a href="{% url 'dashboard-product' %}" class='text-decoration-none text-dark'>
+                            <div class="card-body shadow-lg p-3 mb-5 bg-body rounded">
+                                <h1>Products</h1><br>
+                                <h2>4</h2>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
