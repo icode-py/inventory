@@ -1,0 +1,18 @@
+.kanyi{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: animtext 4s steps(80, end); 
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: backwards;
+     /* transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1); */
+  }
+  @keyframes animtext { 
+    from {
+        width: 0;
+        to {width:100%};
+    } 
+  }
+  .kl{
+    display: inline-block;
+  }
