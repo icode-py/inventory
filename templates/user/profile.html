@@ -20,22 +20,25 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row">Name</th>
-                                            <td>Mark</td>
+                                            <td>{{user.username}}</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Email</th>
-                                            <td>Stinoemmanuel6@gmail.com</td>
+                                            <td>{{user.email}}</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Phone</th>
-                                            <td>08060870161</td>
+                                            <td>{{user.profile.phone}}</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Address</th>
-                                            <td>23b St vale's Estate Maitama,Abuja.</td>
+                                            <td>{{user.profile.address}}</td>
                                         </tr>
                                     </tbody>
                                 </table>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-thumbnail" src={{user.profile.image.url}} alt="profile picture">
                             </div>
                         </div>
                     </div>
